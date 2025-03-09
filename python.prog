@@ -2,3 +2,6 @@ import simpy
 import random
 def customer(env, bank):
 yield bank.request()
+print(f'starting service at {env.now}')
+yield
+env.timeout(random.randint(1,3))
