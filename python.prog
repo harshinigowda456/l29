@@ -7,3 +7,5 @@ yield
 env.timeout(random.randint(1,3))
 print(f'Finished service at {env.now}')
 env = simpy.Environment()
+bank = simpy.Resource(env, 1)
+for _ in range(3):
