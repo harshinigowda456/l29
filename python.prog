@@ -8,4 +8,7 @@ env.timeout(random.randint(1,3))
 print(f'Finished service at {env.now}')
 env = simpy.Environment()
 bank = simpy.Resource(env, 1)
-for _ in range(3):
+for _ in range(3)i:
+env.process(customer(env, bank))
+env.timeout(1)
+env.run()
