@@ -1,2 +1,4 @@
 import simpy
 import random
+def customer(env, bank):
+yield bank.request()
