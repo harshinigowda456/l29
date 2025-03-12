@@ -4,3 +4,4 @@ print(f"Hello,{name}!")
 num = int(input("Enter a number:))
 for i in rangr(1,num+1):
 print(f"count:{i}")
+print("Thanks for using the program!")
