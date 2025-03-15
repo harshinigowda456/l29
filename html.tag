@@ -5,3 +5,5 @@
 <ul>
 <li>coffee</li>
 <li>tea</li>
+<li>milk</li>
+</ul>
