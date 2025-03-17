@@ -15,3 +15,6 @@
 		<section>
 			<p>This is a simple webpage to demonstate the use of HTML tags.below is an list of image and a 
 			list of my favorite hobbies.</p>
+			<img
+					src="https://via.placeholder.com/150"
+					alt="Placeholder Image"/>
