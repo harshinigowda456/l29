@@ -4,3 +4,5 @@
 		<meta charset=UTF-8">
 		<tittle>simple Alert</tittle>
 	</head>
+	<body>
+		<button onclick="alert('Hello world!)"Click me</button>
